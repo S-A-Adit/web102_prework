@@ -17,7 +17,10 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
+* [x]Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards.
+* [x]Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards.
+* [x]Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards. 
 
 ## Video Walkthrough
 
@@ -35,10 +38,14 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+* Adding search filter without affecting main game display logic keeping the core functionality intact
+* Filtering games without lag when updating the UI
+* Formatting the output so that it was consistent with the provided data and making sure the correct math calculation was used.
+* Getting the data from a JSON file to render as neatly styled cards ensuring HTML structure matched the CSS styling.
+* Implementing filter buttons required correctly checking each game's funding status
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Syed Afnan Adit]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
