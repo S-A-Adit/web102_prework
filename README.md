@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Game Fund*
 
-Submitted by: **Your Name Here**
+Submitted by: **Syed Afnan Adit**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Game Fund** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -18,9 +18,9 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] List anything else that you can get done to improve the app functionality!
-* [x]Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards.
-* [x]Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards.
-* [x]Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards. 
+* [x] Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards.
+* [x] Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards.
+* [x] Search Filter – Adds an input box at the top so users can type a game's name and instantly filter the displayed game cards. 
 
 ## Video Walkthrough
 
