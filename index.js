@@ -181,3 +181,36 @@ firstGameContainer.appendChild(firstGameNameElement);
 const secondGameNameElement = document.createElement('h3');
 secondGameNameElement.textContent = secondGame.name;
 secondGameContainer.appendChild(secondGameNameElement);
+// EXTRA FEATURE 1: Search Filter
+const searchInput = document.createElement('input');
+searchInput.type = 'text';
+searchInput.placeholder = 'Search games...';
+document.body.insertBefore(searchInput, document.body.firstChild);
+
+searchInput.addEventListener('input', function () {
+  const searchTerm = this.value.toLowerCase();
+  document.querySelectorAll('.game-card').forEach(card => {
+    const title = card.querySelector('h3').textContent.toLowerCase();
+    card.style.display = title.includes(searchTerm) ? 'block' : 'none';
+  });
+});
+
+//EXTRA FEATURE 2: Highlight Fully Funded Games
+document.querySelectorAll('.game-card').forEach(card => {
+  const pledged = parseFloat(card.dataset.pledged);
+  const goal = parseFloat(card.dataset.goal);
+  if (pledged >= goal) {
+    card.style.border = '3px solid gold';
+  }
+});
+
+// EXTRA FEATURE 3: Show Funding Percentage
+document.querySelectorAll('.game-card').forEach(card => {
+  const pledged = parseFloat(card.dataset.pledged);
+  const goal = parseFloat(card.dataset.goal);
+  const percent = ((pledged / goal) * 100).toFixed(1);
+
+  const percentElem = document.createElement('p');
+  percentElem.textContent = `Funded: ${percent}%`;
+  card.appendChild(percentElem);
+});
